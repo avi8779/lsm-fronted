@@ -94,7 +94,7 @@ async function handleLogout(e) {
                                 </button>
 
                                 <button className=" btn-secondary px-4 py-1 font-semibold rounded-md w-full">
-                                    <Link to="/login">Sign Up</Link>
+                                    <Link to="/signup">Sign Up</Link>
                                 </button>
                             </div>
                             </li>
