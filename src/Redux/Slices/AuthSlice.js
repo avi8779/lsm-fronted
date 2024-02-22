@@ -56,7 +56,7 @@ const authSlice = createSlice({
             localStorage.setItem("isLoggedIn", true);
             localStorage.setItem("role", action?.payload?.user?.role);
             state.data = action?.payload?.user;
-            state.role = action?.payload?.user.role
+            state.role = action?.payload?.user?.role
         })
     }
 });
